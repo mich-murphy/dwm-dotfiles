@@ -1,0 +1,13 @@
+alias ls='ls -lah --color=auto --group-directories-first'
+alias d='dirs -v'
+for index ({1..9}) alias "$index"="cd +${index}"; unset index
+alias tmux='tmux -2'
+alias tmuxa='tmux attach-session -t'
+alias tmuxls='tmux list-sessions'
+alias tmuxk='tmux kill-session -t'
+alias tmuxn='tmux new-session -s'
+alias tmuxka='tmux kill-server'
+alias nsxiv='devour nsxiv'
+alias zathura='devour zathura'
+alias ls='lsd -la'
+alias cat='bat'

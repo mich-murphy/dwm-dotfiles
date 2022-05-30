@@ -1,0 +1,19 @@
+# Increase volume
+XF86Audio{RaiseVolume,LowerVolume,Mute}
+    /home/mm/.local/bin/changevolume.sh {up,down,mute}
+
+# Change brightness
+XF86MonBrightness{Down,Up}
+    /home/mm/.local/bin/changebrightness.sh {down,up}
+
+# Launch applications
+super + shift + {b,f}
+    {brave,kitty -e ranger}
+
+# Screenshot
+F10 + {_,super}
+    {/home/mm/.local/bin/screenshot.sh,/home/mm/.local/bin/screenshot.sh select}
+
+# Shutdown
+super + x
+    read "Are you sure you want to shutdown?" "shutdown now"

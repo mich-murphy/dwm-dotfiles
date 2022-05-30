@@ -1,0 +1,15 @@
+# Nvim undo history and plugins
+**/nvim/undo
+**/nvim/plugged
+**/nvim/autoload
+*.swp
+
+# Tmux plugins
+**/tmux/plugins
+
+# Zsh history
+**/zsh/.zshistory
+**/zsh/.zcompdump
+
+# Spotifyd password
+**/spotifyd/pass.txt
