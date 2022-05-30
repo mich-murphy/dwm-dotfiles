@@ -68,9 +68,9 @@ export FZF_DEFAULT_OPTS='
 --color=marker:#948ae3,spinner:#fce566,header:#fc618d'
 
 export PATH=$PATH:$HOME/.local/bin
-export PATH=$PATH:$XDG_CONFIG_HOME/home/mm/.local/bin
+export PATH=$PATH:$HOME/.local/bin
 export PATH=$PATH:$HOME/.cargo/bin
 export PATH=$PATH:$HOME/node_modules/.bin
-export PATH=$PATH:$XDG_CONFIG_HOME/home/mm/.local/share/gem/ruby/3.0.0/bin
+export PATH=$PATH:$HOME/.local/share/gem/ruby/3.0.0/bin
 
 pfetch
