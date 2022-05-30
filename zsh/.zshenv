@@ -2,7 +2,7 @@
 export XDG_CONFIG_HOME="$HOME/.config"
 
 # For specific data
-export XDG_DATA_HOME="$XDG_CONFIG_HOME/home/mm/.local/share"
+export XDG_DATA_HOME="$HOME/.local/share"
 
 # For cached files
 export XDG_CACHE_HOME="$XDG_CONFIG_HOME/cache"
@@ -24,7 +24,7 @@ export HISTSIZE=10000
 export SAVEHIST=10000
 
 # Dotfiles
-export DOTFILES="$HOME/.dotfiles"
+export DOTFILES="$HOME/dotfiles"
 
 # Fzf
 export FZF_DEFAULT_COMMAND="rg --files --hidden --glob '!.git'"
