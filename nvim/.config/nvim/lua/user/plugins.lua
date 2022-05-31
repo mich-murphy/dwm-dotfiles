@@ -67,6 +67,12 @@ return packer.startup(function(use)
   use "sainnhe/edge"
   use "https://gitlab.com/__tpb/monokai-pro.nvim"
 
+  -- display colors
+  use {
+    "RRethy/vim-hexokinase",
+    run = 'make hexokinase'
+  }
+
   -- cmp plugins
   use "hrsh7th/nvim-cmp" -- The completion plugin
   use "hrsh7th/cmp-buffer" -- buffer completions

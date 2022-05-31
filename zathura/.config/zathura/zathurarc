@@ -14,4 +14,4 @@ map r reload
 map J zoom out
 set selection-clipboard clipboard
 
-include edge 
+include theme 
