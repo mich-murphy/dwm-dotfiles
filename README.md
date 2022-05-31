@@ -1,5 +1,5 @@
 # Dotfiles
-Here are my setup files for my Arch install using i3 gaps. This is currently being used for a laptop, which explains some scripts and polybar modules. 
+Here are my setup files for my Arch install using dwm. This is currently being used for a laptop, which explains some scripts. 
 
 In the unix world programs are commonly configured with files in your home directory. Any file or directory name that starts with a dot/period is considered hidden, and in a default view will not be displayed - thus the name dotfiles.
 
@@ -23,22 +23,25 @@ sudo systemctl --user start spotifyd.service
 
 ## Info
 - OS: Arch
-- WM: i3 gaps
+- WM: [dwm](https://dwm.suckless.org/)
 - Terminal: [kitty](https://sw.kovidgoyal.net/kitty/)
 - Shell: Zsh
 - Browser: [Brave](https://brave.com/linux/)
 - Editor: Neovim
 - System monitor: [Btop](https://github.com/aristocratos/btop)
-- Launcher: [Rofi](https://github.com/davatorium/rofi)
-- Bar: [Polybar](https://github.com/polybar/polybar)
-- Fonts: [MonoLisa](https://www.monolisa.dev/)
+- Launcher: [dmenu](https://tools.suckless.org/dmenu/)
+- Bar: [slstatus](https://tools.suckless.org/slstatus/)
+- Fonts: 
+  - [Spleen](https://github.com/fcambus/spleen) for bar
+  - [Siji](https://github.com/stark/siji) for bar icons
+  - [MonoLisa](https://www.monolisa.dev/) in terminal
 - Music: [Spotify-tui & Spotifyd](https://github.com/Rigellute/spotify-tui)
 - GTK: [ANT Dracula](https://github.com/dracula/gtk)
-- File Manager: [Ranger](https://github.com/ranger/ranger)
-- Fetch: [rxfetch](https://github.com/Mangeshrex/rxfetch)
+- File Manager: [lf](https://github.com/gokcehan/lf)
+- Fetch: [pfetch](https://github.com/dylanaraps/pfetch)
 - Notifications: [Dunst](https://github.com/dunst-project/dunst)
 - Compositor: [picom](https://github.com/yshui/picom)
-- Colorscheme: [Edge](https://github.com/sainnhe/edge)
+- Colorscheme: [Monokai Pro - Spectrum](https://gitlab.com/__tpb/monokai-pro.nvim)
 
 ## Screenshots
 ![nvim, spotify-tui and cava screenshot](https://github.com/mrhackendbacker/Hackfiles/blob/master/wallpapers/Pictures/screenshots/2022-03-17-21:38:58-screenshot.png)
