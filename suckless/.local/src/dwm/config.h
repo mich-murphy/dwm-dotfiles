@@ -14,12 +14,12 @@ static const int topbar             = 1;        /* 0 means bottom bar */
 static const int user_bh            = 30;        /* 0 means that dwm will calculate bar height, >= 1 means dwm will user_bh as bar height */
 static const char *fonts[]          = { "Spleen:size=14","Wuncon Siji:pixelsize=10:antialias=true:autohint=true" };
 static const char dmenufont[]       = "Spleen:size=14";
-static const char nbgcolor[]              = "#222222";
-static const char nbordercolor[]          = "#222222";
-static const char nfgcolor[]              = "#f7f1ff";
-static const char sfgcolor[]              = "#69676c";
-static const char sbordercolor[]          = "#403e41";
-static const char sbgcolor[]              = "#222222";
+static const char nbgcolor[]        = "#222222";
+static const char nbordercolor[]    = "#222222";
+static const char nfgcolor[]        = "#f7f1ff";
+static const char sfgcolor[]        = "#69676c";
+static const char sbordercolor[]    = "#403e41";
+static const char sbgcolor[]        = "#222222";
 static const char *colors[][3] = {
        /*               fg           bg           border   */
        [SchemeNorm] = { nfgcolor,  nbgcolor,  nbordercolor },
@@ -38,6 +38,7 @@ static const Rule rules[] = {
 	{ "Gimp",    NULL,     NULL,           0,         1,          0,           0,        -1 },
 	{ "Firefox", NULL,     NULL,           1 << 8,    0,          0,          -1,        -1 },
 	{ "St",      NULL,     NULL,           0,         0,          1,           0,        -1 },
+	{ "kitty",   NULL,     NULL,           0,         0,          1,           0,        -1 },
 	{ "Steam",   NULL,     NULL,           0,         1,          0,           0,        -1 },
 	{ "Lutris",  NULL,     NULL,           0,         1,          0,           0,        -1 },
 	{ NULL,      NULL,     "Event Tester", 0,         0,          0,           1,        -1 }, /* xev */
@@ -54,20 +55,20 @@ static const int lockfullscreen = 1; /* 1 will force focus on the fullscreen win
 
 static const Layout layouts[] = {
 	/* symbol     arrange function */
-	{ "[]=",      tile },    /* first entry is default */
+	{ "\ue002",      tile },    /* first entry is default */
 	{ "[M]",      monocle },
-	{ "[@]",      spiral },
-	{ "[\\]",     dwindle },
-	{ "H[]",      deck },
-	{ "TTT",      bstack },
-	{ "===",      bstackhoriz },
-	{ "HHH",      grid },
-	{ "###",      nrowgrid },
-	{ "---",      horizgrid },
-	{ ":::",      gaplessgrid },
-	{ "|M|",      centeredmaster },
-	{ ">M>",      centeredfloatingmaster },
-	{ "><>",      NULL },    /* no layout function means floating behavior */
+	{ "\ue008",      spiral },
+	{ "\ue007",      dwindle },
+	// { "H[]",         deck },
+	{ "\ue003",      bstack },
+	{ "\ue004",      bstackhoriz },
+	// { "HHH",         grid },
+	// { "###",         nrowgrid },
+	{ "\ue00a",      horizgrid },
+	{ "\ue005",      gaplessgrid },
+	{ "\ue001",      centeredmaster },
+	// { "\ue006",      centeredfloatingmaster },
+	{ "\ue006",      NULL },    /* no layout function means floating behavior */
 	{ NULL,       NULL },
 };
 

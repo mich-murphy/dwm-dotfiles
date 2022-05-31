@@ -5,13 +5,13 @@ export XDG_CONFIG_HOME="$HOME/.config"
 export XDG_DATA_HOME="$HOME/.local/share"
 
 # For cached files
-export XDG_CACHE_HOME="$XDG_CONFIG_HOME/cache"
+export XDG_CACHE_HOME="$HOME/.cache"
 
 # Default editor
 export EDITOR="nvim"
 export VISUAL="nvim"
 export TERMINAL="kitty"
-export BROWSER="firefox"
+export BROWSER="brave"
 
 # Zsh config files
 export ZDOTDIR="$XDG_CONFIG_HOME/zsh"
