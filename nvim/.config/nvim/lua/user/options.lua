@@ -46,7 +46,7 @@ vim.cmd "set whichwrap+=<,>,[,],h,l"
 vim.cmd [[set iskeyword+=-]]
 vim.cmd [[set formatoptions-=cro]] -- TODO: this doesn't seem to work
 vim.cmd [[set nu]] -- current line number
-vim.cmd [[set undodir=$HOME/.config/nvim/undo]]
+vim.cmd [[set undodir=$XDG_STATE_HOME/nvim/undo]]
 vim.cmd [[set undolevels=10000]]
 vim.cmd [[set undoreload=10000]]
 vim.cmd [[set inccommand=nosplit]] -- highlight regex substitution

@@ -7,6 +7,7 @@ alias tmuxls='tmux list-sessions'
 alias tmuxk='tmux kill-session -t'
 alias tmuxn='tmux new-session -s'
 alias tmuxka='tmux kill-server'
+alias wget --hsts-file="$XDG_CACHE_HOME/wget-hsts"
 alias nsxiv='devour nsxiv'
 alias zathura='devour zathura'
 alias ls='lsd -la'
