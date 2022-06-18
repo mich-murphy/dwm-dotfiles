@@ -26,7 +26,7 @@ sudo systemctl --user start spotifyd.service
 - WM: [dwm](https://dwm.suckless.org/)
 - Terminal: [kitty](https://sw.kovidgoyal.net/kitty/)
 - Shell: Zsh
-- Browser: [Brave](https://brave.com/linux/)
+- Browser: [Brave](https://brave.com/linux/) - [Monokai Pro Theme](https://github.com/logicseed/monokai-pro-themes)
 - Editor: Neovim
 - System monitor: [Btop](https://github.com/aristocratos/btop)
 - Launcher: [dmenu](https://tools.suckless.org/dmenu/)
