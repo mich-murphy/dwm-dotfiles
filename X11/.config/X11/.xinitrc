@@ -20,7 +20,7 @@ picom --experimental-backends --config $XDG_CONFIG_HOME/picom/picom.conf -b
 redshift -l -38.14711:144.36069 &
 
 # Wallpaper
-feh --bg-fill $HOME/Pictures/wallpapers/tokyo.jpg &
+feh --bg-fill $HOME/Pictures/wallpapers/Spirit-Desktop.jpg &
 
 # Notifications
 dunst --config $XDG_CONFIG_HOME/dunst/dunstrc &
