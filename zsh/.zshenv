@@ -7,6 +7,9 @@ export XDG_DATA_HOME="$HOME/.local/share"
 # For cached files
 export XDG_CACHE_HOME="$HOME/.cache"
 
+# For cached files
+export XDG_STATE_HOME="$HOME/.local/state"
+
 # Default editor
 export EDITOR="nvim"
 export VISUAL="nvim"
