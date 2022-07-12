@@ -6,21 +6,6 @@ In the unix world programs are commonly configured with files in your home direc
 ## Management
 I manage dotfiles with gnu stow. This allows me to keep a versioned directory of all my config files, that are virtually linked into place via a single command. This makes sharing these files among many users and computers super simple. Instructions for installation with gnu stow can be found [here](#installing)
 
-## Ansible Install
-Complete Ansible install can be found at [this repo](https://github.com/mich-murphy/ansible). Ansible is a tool created by Redhat, which manages server installations. This can be configured to run on localhost and allows for a fully automated installation.
-
-**Note**: edits will be needed for users other than myself to run the Ansible install:
-1. The SSH configuration task will need to be removed, as it requires a decryption password
-2. The task cloning this repo will need to be removed. This repo references a submodule to another private repo - due to the use of paid fonts - this causes ansible to fail when authentication to the private repo can't be made.
-
-Following install spotifyd config must be completed:
-1. create ~/.config/spotifyd/pass.txt (will look to use ansible vault in future)
-2. enable systemd service
-```
-sudo systemctl --user enable spotifyd.service
-sudo systemctl --user start spotifyd.service
-```
-
 ## Info
 - OS: Arch
 - WM: [dwm](https://dwm.suckless.org/)
@@ -34,7 +19,7 @@ sudo systemctl --user start spotifyd.service
 - Fonts: 
   - [Spleen](https://github.com/fcambus/spleen) for bar
   - [Siji](https://github.com/stark/siji) for bar icons
-  - [MonoLisa](https://www.monolisa.dev/) in terminal
+  - [JetBrainsMono](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/JetBrainsMono) in terminal
 - Music: [Spotify-tui & Spotifyd](https://github.com/Rigellute/spotify-tui)
 - GTK: [ANT Dracula](https://github.com/dracula/gtk)
 - File Manager: [lf](https://github.com/gokcehan/lf)
