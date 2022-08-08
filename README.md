@@ -29,7 +29,7 @@ I manage dotfiles with gnu stow. This allows me to keep a versioned directory of
 - Colorscheme: [Monokai Pro - Spectrum](https://gitlab.com/__tpb/monokai-pro.nvim)
 
 ## Screenshots
-![screenshot](https://github.com/mich-murphy/dotfiles/blob/master/wallpapers/Pictures/screenshot.png)
+![screenshot](https://github.com/mich-murphy/dotfiles/blob/master/wallpapers/Pictures/screenshots/screenshot.png)
 
 ## Installing
 Requirements:
